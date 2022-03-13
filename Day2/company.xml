@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?> 
+<!DOCTYPE company [
+<!ELEMENT company (employee)>
+<!ELEMENT employee (name, phone+, address+, email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone
+          type CDATA #REQUIRED>
+<!ELEMENT address (street, building, region, city, country)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT building (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT email (#PCDATA)>]>
+
+<company>
+    <employee>
+        <name>
+			Dina
+		</name>
+        <phone type="home">
+			032323232
+		</phone>
+        <phone type="mobile">
+			010101010101010
+		</phone>
+        <address>
+            <street>
+				ahmed qamha st
+			</street>
+            <building>
+				7
+			</building>
+            <region>
+				shatby
+			</region>
+            <city>
+				Alexandria
+			</city>
+            <country>
+				Egypt
+			</country>
+        </address>
+        <address>
+            <street>
+				elnarges
+			</street>
+            <building>
+				4
+			</building>
+            <region>
+				wakra
+			</region>
+            <city>
+				doha
+			</city>
+            <country>
+				qatar
+			</country>
+        </address>
+		<email>
+		dina@yahoo.com
+		</email>
+    </employee>
+</company>

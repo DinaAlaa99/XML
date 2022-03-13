@@ -1,0 +1,29 @@
+company {
+    background-color: #000000;
+    width: 100%;
+}
+
+employee {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0pt;
+}
+
+name {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+phone,
+email {
+    display: block;
+    color: #00ff00;
+    font-size: 20pt;
+}
+
+address{
+      display: block;
+      color: yellow;
+      font-size: 20pt;
+}

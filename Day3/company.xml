@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="company.xsl"?>
+
+<company>
+    <employee>
+        <name>
+			Dina
+		</name>
+		<phones>
+        <phone Type="home">
+			032323232
+		</phone>
+        <phone Type="mobile">
+			010101010101010
+		</phone>
+		</phones>
+        <address>
+            <street>
+				ahmed qamha st
+			</street>
+            <building>
+				7
+			</building>
+            <region>
+				shatby
+			</region>
+            <city>
+				Alexandria
+			</city>
+            <country>
+				Egypt
+			</country>
+        </address>
+        <address>
+            <street>
+				elnarges
+			</street>
+            <building>
+				4
+			</building>
+            <region>
+				wakra
+			</region>
+            <city>
+				doha
+			</city>
+            <country>
+				qatar
+			</country>
+        </address>
+		<email>
+		dina@yahoo.com
+		</email>
+    </employee>
+</company>

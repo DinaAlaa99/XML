@@ -1,0 +1,41 @@
+library {
+    background-color: white;
+    width: 100%;
+}
+
+location,
+description,
+librarian,
+book {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0pt;
+    color:rgb(248, 86, 10);
+    font-size: 20pt;
+}
+
+ISBN,
+author,
+preface,
+part {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+title {
+    display: block;
+    color: blue;
+    font-size: 20pt;
+}
+
+
+
+chapter,
+summary,
+section,
+content {
+    display: block;
+    color: #00ff00;
+    font-size: 20pt;
+}

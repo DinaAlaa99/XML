@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<library>
+	<location>
+		Alexandria,Egypt
+	</location>
+	<description>
+		description
+	</description>
+	<librarian>
+		Dina
+	</librarian>
+	<book>
+		<title>
+			clean code
+		</title>
+		<ISBN>
+			123455
+		</ISBN>
+		<author>
+			R and D
+		</author>
+		<preface>
+			preface
+		</preface>
+		<part>
+			<chapter title="chapter one">
+				<summary>
+					this is a summary
+				</summary>
+				<section title="section one">
+					<p>
+						this is paragraph 1 in section 1
+					</p>
+					<p>
+						this is paragraph 2 in section 1
+					</p>
+				</section>
+				<section title="section two">
+					<p>
+						this is paragraph 1 in section 2
+					</p>
+					<p>
+						this is paragraph 2 in section 2
+					</p>
+				</section>
+			</chapter>
+		</part>
+		<part>
+			<chapter itle="chapter two">
+				<summary>
+					this is a summary
+				</summary>
+				<section title="section one">
+					<p>
+						this is paragraph 1 in section 1
+					</p>
+					<p>
+						this is paragraph 2 in section 1
+					</p>
+				</section>
+				<section title="section two">
+					<p>
+						this is paragraph 1 in section 2
+					</p>
+					<p>
+						this is paragraph 2 in section 2
+					</p>
+				</section>
+				<element>
+				</element>
+			</chapter>
+		</part>
+	</book>
+</library>
